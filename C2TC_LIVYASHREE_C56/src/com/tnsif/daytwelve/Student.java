@@ -1,7 +1,6 @@
 package com.tnsif.daytwelve;
 import java.util.Arrays;
 public class Student {
-	public class Student {
 		private int rollNo;
 		private String name;
 		private int[] marks;

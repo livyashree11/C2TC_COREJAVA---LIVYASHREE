@@ -1,6 +1,8 @@
+//Program to demonstrate Thread class methods
 package com.tnsif.daythirteen;
 
 public class ThreadMethodsDemo {
+
 	public static void main(String[] args) {
 		ChildThread threadOne = new ChildThread(5, "First"); // creating child thread object
 		ChildThread threadTwo = new ChildThread(10, "Second"); // creating child thread object

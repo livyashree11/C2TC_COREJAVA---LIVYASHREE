@@ -1,6 +1,7 @@
+//Program to define implementable class of Runnable interface
 package com.tnsif.daythirteen;
 
-public class UsingRunnable implements  Runnable {
+public class UsingRunnable implements Runnable {
 	Thread thread;
 	int high, low;
 	String msg;

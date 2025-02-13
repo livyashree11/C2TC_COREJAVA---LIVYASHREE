@@ -1,6 +1,8 @@
+//Program to demonstrate Thread life cycle
 package com.tnsif.daythirteen;
 
 public class ThreadLifeCycleDemo {
+
 	public static void main(String[] args) {
 		MyChildThread myThread = new MyChildThread();
 		System.out.println("Before Runnable stage Thread is alive or not? " + myThread.isAlive());
@@ -15,3 +17,4 @@ public class ThreadLifeCycleDemo {
 		System.out.println("After complete execution of Thread ,it is alive or not? " + myThread.isAlive());
 	}
 }
+
